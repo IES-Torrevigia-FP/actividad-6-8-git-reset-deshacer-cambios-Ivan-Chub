@@ -1,0 +1,17 @@
+git status:
+En la rama main
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+        
+git log --oneline:
+3137ef7 (HEAD -> main) Paso 4: registro de usuarios (mejorado)
+40053a6 fix cosas
+909d5f5 Paso 2: módulo de login
+7092b70 Paso 1: estructura inicial
+
+Esto mueve HEAD al commit anterior, pero mantiene los cambios del último commit en staging.

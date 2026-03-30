@@ -1,0 +1,17 @@
+Se ha desaparecido 3137ef7 (HEAD -> main) Paso 4: registro de usuarios (mejorado)
+
+git status:
+En la rama main
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+        modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+        cp2-soft-reset.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+Mientras que --soft solo mueve el puntero (HEAD) dejando tus cambios intactos en el área de preparación, --mixed (el valor por defecto) resetea el índice al nivel del commit seleccionado, enviando tus modificaciones de vuelta al directorio de trabajo.

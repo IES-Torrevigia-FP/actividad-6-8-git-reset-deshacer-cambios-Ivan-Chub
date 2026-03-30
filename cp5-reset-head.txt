@@ -1,0 +1,30 @@
+git status antes:
+En la rama main
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+        cp2-soft-reset.txt
+        cp3-mixed-reset.txt
+        cp4-hard-reset.txt
+
+git status después:
+En la rama main
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+        modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-historial-inicial.txt
+        cp2-soft-reset.txt
+        cp3-mixed-reset.txt
+        cp4-hard-reset.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+Es útil cuando no quieres borrar datos enteros sino corregir alguna parte.

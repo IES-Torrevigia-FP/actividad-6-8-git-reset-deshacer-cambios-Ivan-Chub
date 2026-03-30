@@ -1,0 +1,8 @@
+Los cambios staged y unstaged trás el comando git reset --hard HEAD habrán desaparecido.
+
+Paso 1: estructura inicial del proyecto.
+Paso 2: añade módulo de login.
+Paso 3: refactoriza código de login.
+Paso 4: añade módulo de registro de usuarios.
+
+Elimina todos los cambios del working directory y el staging area, sobrescribiéndolos con el estado del commit seleccionado y haciendo que cualquier trabajo no guardado sea prácticamente irrecuperable.

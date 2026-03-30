@@ -1,0 +1,5 @@
+git log --oneline:
+b4c9092 (HEAD -> main) Paso 4: registro de usuarios
+40053a6 fix cosas
+909d5f5 Paso 2: módulo de login
+7092b70 Paso 1: estructura inicial
